@@ -1,0 +1,26 @@
+{
+  "name": "PaypalApp_Wrk",
+  "version": "0.1.0",
+  "description": "A paypal application",
+  "private":true,
+  "main": "app.js",
+  "dependencies": {
+      "express": "4.9.5",
+      "shrinkwrap":"0.4.0",
+      "ejs":"1.0.0"
+  },
+  "scripts": {
+      "start": "node app.js",
+      "debug": "node debug app.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Eclipse",
+    "Nodeclipse"
+  ],
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
+
+
