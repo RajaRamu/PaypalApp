@@ -43,24 +43,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', end
 color:#3F3F3F;
 text-align:center;
 }
-.pgcnt{
+/*For home page */
+.hp .pgcnt{
 	position:relative;
 	top:12em;
 }
-
-.small{
+/* Send money page*/
+.sm .small{
 	width:200px;
 	margin:0px 30px;
 }
-.small .btn{
+.sm .small .btn{
 	margin:0px;
 	height:2em;
 	line-height:2em;
 }
-.left{
+.sm .left{
 	float:left;
 }
-.right{
+.sm .right{
 	float:right;
 }
 
