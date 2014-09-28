@@ -2,11 +2,23 @@
 <html>
 <head>
 <title>Welcome to PayPal - <%=title %></title>
-<link href="/static/css/paypal.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="/static/css/paypal.css">
 </head>
-
 <body>
-send money or view transaction history
+<header class="header">Send Money</header>
+
+<section class="pgcnt">
+
+</section>
+
+<footer class="footer">
+<div class="left small">
+<a href="/sendmoney" class="btn">Clear</a>
+</div>
+<div class="right small">
+<a href="/transactionhistory" class="btn">Next</a>
+</div>
+</footer>
 <script src="/static/js/paypal.js"></script>
 </body>
-</html>
+</html>	

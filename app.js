@@ -5,8 +5,12 @@ var path = require('path');
 app.use('/static', express.static(__dirname + '/public'));
 //view mapping 
 app.set('views', path.join(__dirname, 'views'));
+//app.engine('jade', require('jade').__express);
+//app.set('view engine', 'jade');
+
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
+
 
 //routers
 
